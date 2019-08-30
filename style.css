@@ -1,36 +1,41 @@
 html{
 
-		background: url(./nyc.jpg) fixed;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		
+	background: url(./nyc.jpg) fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+
+body{	
+
 	color:rgb(60,60,60);
 	max-height: 100%;
+	min-height: 100%;
+	height:100vh;
 	font-size: 15px;
 	margin: auto;  
 	font-weight: 800;
 	font-family: "Courier";
 	text-align: center;
-
 	}
 
 nav{
-	display:inline-block;
 	font-size: 26px;
-	
 	padding: 0;
-
+	border:10px 10px;
 }
+
 a{
 	color:rgb(60,60,60);
 	text-decoration: none;
 	text-align: justify;
+	display: inline-block;
+
 }
 main{
 	text-align: center;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 12px;
 	display: inline-block;
 	max-width: 600px;
 	border-top: 1px solid white; 
