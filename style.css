@@ -1,6 +1,6 @@
 html{
 
-	background: url(./nyc.jpg);
+	background: url(./nyc.jpg), fixed;
 	background-position-y:top;
 	background-repeat: no-repeat;
 
