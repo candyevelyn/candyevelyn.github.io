@@ -62,7 +62,7 @@ li{
 }
 footer{
 	text-decoration: none;
+	display: flex;
+	justify-content: space-evenly;
 }
-project{
-	padding-bottom: 5px;
-}
+
