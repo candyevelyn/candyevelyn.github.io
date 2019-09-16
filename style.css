@@ -1,9 +1,9 @@
 html{
 
 	background: url(./nyc.jpg), fixed;
+	background-size: auto;
 	background-position-y:top;
 	background-repeat: no-repeat;
-
 	}
 
 body{	
