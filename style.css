@@ -1,13 +1,12 @@
 html{
 
-	background: url(./nyc.jpg) fixed;
-	background-size: cover;
+	background: url(./nyc.jpg);
+	background-position-y:top;
 	background-repeat: no-repeat;
-	background-position: center;
+
 	}
 
 body{	
-
 	color:rgb(60,60,60);
 	max-height: 100%;
 	min-height: 100%;
@@ -18,18 +17,22 @@ body{
 	font-family: "Courier";
 	text-align: center;
 	}
-
+section{
+	padding: 10px 0;
+}
 nav{
-	font-size: 26px;
-	padding: 0;
+	justify-content: space-evenly;
+	color:rgb(60,60,60);
 	border:10px 10px;
 }
 
 a{
 	color:rgb(60,60,60);
-	text-decoration: none;
+	padding: 5px;
+	font-size: 15;
 	text-align: justify;
 	display: inline-block;
+	font-weight: 900;
 
 }
 main{
@@ -37,7 +40,7 @@ main{
 	margin: 0 auto;
 	padding: 12px;
 	display: inline-block;
-	max-width: 600px;
+	max-width: 800px;
 	border-top: 1px solid white; 
 	border-bottom: 1px solid white; 
 }
@@ -49,7 +52,17 @@ header{
 ul{
 	list-style-type: none;
 	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+li{
+	padding: 0 15px;
 }
 footer{
-	
+	text-decoration: none;
+}
+project{
+	padding-bottom: 5px;
 }
